@@ -3,6 +3,8 @@
 namespace XtendLunar\Features\LanguageSwitch;
 
 use CodeLabX\XtendLaravel\Base\XtendFeatureProvider;
+use Livewire\Livewire;
+use XtendLunar\Features\LanguageSwitch\Livewire\Components\LanguageSwitch;
 
 class LanguageSwitchProvider extends XtendFeatureProvider
 {
@@ -14,6 +16,6 @@ class LanguageSwitchProvider extends XtendFeatureProvider
 
     public function boot()
     {
-
+        Livewire::component('hub.components.language-switch', LanguageSwitch::class);
     }
 }

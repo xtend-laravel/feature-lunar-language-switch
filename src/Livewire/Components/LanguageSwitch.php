@@ -39,6 +39,6 @@ class LanguageSwitch extends Component
 
     public function render(): View
     {
-        return view('adminhub::livewire.components.switch-language');
+        return view('adminhub::livewire.components.language-switch');
     }
 }
