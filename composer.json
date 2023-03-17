@@ -1,0 +1,19 @@
+{
+    "name": "xtend-laravel/feature-lunar-language-switch",
+    "description": "Lunar Language Switch",
+    "type": "xtend-feature",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "XtendLunar\\Features\\LanguageSwitch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adam Lee",
+            "email": "adam@codelabx.ltd"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
